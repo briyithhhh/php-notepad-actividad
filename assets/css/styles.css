@@ -1,0 +1,55 @@
+body {
+  background-color: #FEE5EB;
+}
+
+textarea {
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  text-align: center;
+}
+
+textarea::placeholder {
+  color: #999;
+}
+
+textarea::target-text {
+  background-color: #FF6B84;
+  color: #FFF;
+}
+
+h1, p {
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  color: #FFF;
+  background-color: #FF6B84;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #FF4F64;
+}
+
+select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #F9CCD3;
+}
+
+script {
+  display: none;
+}
