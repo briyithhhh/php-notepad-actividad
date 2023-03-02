@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: text/html; charset=UTF-8');
-date_default_timezone_set('America/Los_Angeles');
+date_default_timezone_set('America/Caracas');
 
 if (isset($_POST['action'])) {
     $dir = __DIR__ . '/';
